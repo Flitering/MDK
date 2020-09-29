@@ -1,0 +1,35 @@
+﻿gridSizeChanged {
+	display: grid;
+	grid-gap: 100px;
+	grid-template-columns: repeat(auto-fit,minmax(800px,1fr));
+	grid-template-rows: repeat(2,100px);
+	margin-left: 50px;
+}
+
+@media(min-width:1280px ) {
+	div.gridSizeChanged {
+		font-size: 12px;
+	}
+}
+
+@media(min-width: 1024px) {
+	div.gridSizeChanged {
+		font-size: 16px;
+	}
+}
+
+@media(min-width: 800px) {
+	div.gridSizeChanged {
+		font-size: 10px;
+	}
+}
+
+@media(min-width: 400px) {
+	div.gridSizeChanged {
+		font-size: 8px;
+	}
+}
+
+body {
+	background: #5d76cb;
+}
